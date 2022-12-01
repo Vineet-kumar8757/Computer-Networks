@@ -129,3 +129,18 @@ Encapsulate the information to identify the sender and the receiver rightly.
   -Broadcast ==> A sender is sending data to all the participants of the network.
   
 
+PEER-TO-PEER NETWORK
+-No centralized administration
+-All peers are equal
+-Simple sharing applications
+-Not scalable.
+
+CLIENT SERVER NETWORK
+-Centralized administration
+-Request-Response model
+- Scalable
+- Server may be overloaded
+
+
+
+
