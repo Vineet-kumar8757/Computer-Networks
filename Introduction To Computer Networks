@@ -48,3 +48,84 @@ BASIC CHARACTERISTICS OF COMPUTER NETWORK
   2. Integrity
   3. Availability
  
+DATA COMMUNICATION
+- Date communications are the exchange of data between two nodes via some form of 
+  link(transmission medium) such as a cable.
+  
+Data flow
+- Simplex
+- Half Duplex
+- Full Duplex
+
+Data flow - Simplex
+- Communication is always unidirectional.
+- One device can transmit and the other device will receive.
+- Example : Keyboards, Traditional monitors
+
+Data flow - Half Duplex
+- Communication is in both directions but not at the same time.
+- If one device is sending, the other can only receive, and vice versa.
+- Example: Walkie-Talkies
+
+Data flow - Duplex or full Duplex
+- Communication is in both directions simultaneously.
+- Device can send and receive at the same time.
+- Example: Telephone line
+
+PROTOCOLS
+- All communication schemes will have the following things in common:
+  1. Source or sender
+  2. Destination or receiver
+  3. Channel or media
+- Rules or protocols govern all the methods of communication
+
+Protocol= Rule
+It is a set of rules that govern data communication.
+Protocol determines:
+  - What is communicated?
+  - How it is communicated?
+  - When it is communicated?
+
+PROTOCOLS - HUMAN COMMUNICATION
+-Protocols are necessary for human communication and include:
+  1. An identified sender and receiver.
+  2. Common language and grammar.
+  3. Speed and timing of delivery
+  4. Confirmation or acknowledgement requirements
+  
+PROTOCOLS - NETWORK COMMUNICATION 
+-Protocols used in network communications also define:
+  1. Message encoding
+  2. Message formatting and encapsulation
+  3. Message timing
+  4. Message size
+  5. Message delivery options
+ 
+ELEMENTS OF A PROTOCOL
+  1. Message encoding
+  2. Message formatting and encapsulation
+  3. Message timing
+  4. Message size
+  5. Message delivery options
+
+1. MESSAGE ENCODING
+Message Source ---> Encoder (Signal) ---> Transmitter ---> Transmission Medium ---> Receiver ----> Decoder (Signal) ----> Message Destinaiton
+
+2. MESSAGE FORMATTING AND ENCAPSULATION
+Agreed format
+Encapsulate the information to identify the sender and the receiver rightly.
+
+3. MESSAGE SIZE
+  - Humans break long messages into smaller parts or sentences.
+  - Long messages must also be broken into smaller pieces to travel across a network.
+ 
+4. MESSAGE TIMING
+  -Flow control
+  -Response Timeout
+
+5. MESSAGE DELIVERY OPTIONS
+  -Unicast ==> A sender is sending data to only one receiver.
+  - Multicast ==> A sender is sending data to a set of receivers but not all.
+  -Broadcast ==> A sender is sending data to all the participants of the network.
+  
+
