@@ -61,5 +61,14 @@ network simultaneously.
 a source machine in both direction to all machines connected to the bus until
 it finds the intended recipient.
 
+Advantages and Disadvantages
 
+Advantages                              Disadvantages
+-Only one wire- less expensive          Not fault tolerant(No redundancy)
+-Suited for temporary network.          Limited cable length
+-Node failures does not affect others.  No secuity
 
+RING TOPOLOGY
+-A ring topology is a bus topology in a closed loop.
+-Peer-to-Peer LAN topology.
+-Two connections: one to 
