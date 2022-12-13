@@ -38,3 +38,19 @@ Cloud Computing
 -It is the on-demand availability of computer system resources, especially data storage
 and computing power, without direct active management by the user.
 
+NETWORK TOPOLOGY
+-Arrangement of nodes of a computer network.
+Topology = Layout
+
+PHYSICAL TOPOLOGY AND LOGICAL TOPOLOGY
+-Physical Topology - Placement of various nodes.
+-Logical Topology - Deals with the data flow in the network.
+
+NETWORK TOPOLOGY
+- Bus
+- Ring
+- Star
+- Mesh
+- Hybrid
+
+
