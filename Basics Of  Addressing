@@ -9,4 +9,29 @@ address.
 -Represented in decimal and it has 4 octets(x.x.x.x)
 -0.0.0.0 to 255.255.255.255(32 bits)
 
+MAC ADDRESS
+-MAC stands for Media Access Control.
+-Every node in the LAN is identified with the help of MAC address.
+-IP Address = Location of a person.
+-MAC Address = Name of the person.
+-Physical address or Hardware Address
+-Unique
+-Cannot be changed.
+-Assigned by the manufacturer.
+-Represented in hexadecimal
+-Example: 70-20-84-00-ED-FC (48 bits)
+-Separator: hyphen(-), period(.) and colon(:),
 
+IP Address                              MAC Address
+-Needed for communication               -Needed for communication
+-32 bits                                -48 bits
+-Represented in Decimal                 -Represented in hexadecimal
+-Router needs IP Address to             - Switch needs MAC address to
+forward data.                             forward data.
+
+PORT ADDRESS OR PORT NUMBER
+-In a node, many processes will be running.
+-Data which are sent/received must reach the right process.
+-Every process in a node is uniquely identified using port numbers.
+-Port = communication endpoint
+-Fixed port numbers and dynamic port numbers(0-65535)
