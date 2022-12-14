@@ -50,4 +50,12 @@ devices uses this information to forward datagrams to right destination.
 -In Datagram Packet Switching approach, the path is not fixed.
 -Intermediate nodes take the routing decisions to forward the packets.
   
- 
+ PACKET SWITCHING- VIRTUAL CIRCUIT APPROACH
+ -Virtual Circuit Switching is also known as connection-oriented
+ switching.
+ -In the case of Virtual circuit switching, a preplanned route is
+ established before the messages are sent.
+ -Call request and call accept packets are used to establish the 
+ connection between sender and receiver.
+ -In this approach, the path is fixed for the duration of a logical
+ connection.
