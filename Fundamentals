@@ -71,6 +71,36 @@ Advantages                              Disadvantages
 RING TOPOLOGY
 -A ring topology is a bus topology in a closed loop.
 -Peer-to-Peer LAN topology.
--Two connections: one to 
+-Two connections: one to each of its nearest neighbours.
+-Unidirectional
+-Sending and receiving data takes place with the help of TOEKN.
+
+Advantages                             Disadvantages
+-Performance better than Bus           -Unidirectional: Single point of failure
+topology.                               will affect the whole network.
+-Can cause battleneck due to          - increase in load and decrease in performance
+weak links.
+-All nodes with equal access.         - No security
+
+STAR TOPOLOGY
+-Every node is connected to a central node called a hub or switch.
+-Centralized management.
+-All traffic must pass through the hub or switch.
+
+Advantages                            Disadvantages
+-Easy to design and implement.        -Single point of failure affects the whole network.
+-Centralized administration           -Bottlenecks due to overloaded switch/Hub.
+-Scalable                             - Increased cost due to switch/hub.
+
+MESH TOPOLOGY
+-Each node is directly connected to every other nodes in the network.
+-Fault tolerant and reliable.
+
+Advantages                            Diaadvantages
+-Fault tolerant                       -Issues with broadcasting messages.
+-Reliable                             -Expensive and impractical for large networks.
+
+HYBRID TOPOLOGY
+-Combination of one or more topology.
 
 
