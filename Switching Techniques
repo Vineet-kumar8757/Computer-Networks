@@ -34,8 +34,20 @@ PACKET SWITCHING
 -Each packet will have source and destination IP address with 
 sequence number.
 -Sequence numbers will help the receiver to 
-  - Redorder the packets
+  - Reorder the packets
   -Detect missing packets and
   -Send acknoeledgements.
+  
+TWO APPROACHES TO PACKET SWITCHING
+1. Datagram Approach
+2. Virtual Circuit Approach
+
+DATAGRAM APPROACH
+-Datagram Packet Switching is also known as connectionless switching.
+-Each independent entity is called as datagram.
+-Datagrams contain destination information and the intermediary
+devices uses this information to forward datagrams to right destination.
+-In Datagram Packet Switching approach, the path is not fixed.
+-Intermediate nodes take the routing decisions to forward the packets.
   
  
