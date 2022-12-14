@@ -35,3 +35,11 @@ PORT ADDRESS OR PORT NUMBER
 -Every process in a node is uniquely identified using port numbers.
 -Port = communication endpoint
 -Fixed port numbers and dynamic port numbers(0-65535)
+
+3 KEY POINTS TO PONDER
+Before sending the data, any node must
+-Attach source IP address and destination IP address.
+-Attach source MAC address and destination MAC address.
+-Attach source port number and destination port number.
+
+
