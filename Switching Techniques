@@ -4,3 +4,38 @@ SWITCHING
  data transmission if there are multiple paths in a larger network.
 -One-to-One connection.
 
+Types of Switching Techniques
+1. Circuit Switching
+2. Message Switching
+3. Packet Switching
+  - Datagram Approach
+  - Virtual Circuit Approach
+
+CIRCUIT SWITCHING
+-A dedicated path is established between the sender and receiver.
+- Before data transfer, connection will be established first.
+-Example: Telephone network
+
+3 PHASES IN CIRCUIT SWITCHING
+ 1. Connection establishment
+ 2. Data transfer
+ 3. Connection Disconnection
+
+MESSAGE SWITCHING
+-Store and forward mechanism.
+-Message is transferred as a complete unit and forwarded using store
+and forward mechanism at the intermediary node.
+-Not suited for streaming media and real-time applications.
+
+PACKET SWITCHING
+-The internet is a packet switched network.
+-Message is broken into individual chunks called as packets.
+-Each packet is sent individually.
+-Each packet will have source and destination IP address with 
+sequence number.
+-Sequence numbers will help the receiver to 
+  - Redorder the packets
+  -Detect missing packets and
+  -Send acknoeledgements.
+  
+ 
