@@ -1,0 +1,17 @@
+LAYERING
+
+-Layering means decomposing the problem into more manageable
+components (Layers)
+
+Advantages:
+-It provides more modular design.
+-Easy to troubleshoot.
+
+PROTOCOLS
+-It is a set of rules that governs data communication.
+- The protocols in each layer governs the activities of the data
+communication
+
+LAYERED ARCHITECTURES
+-The OSI Reference model
+-The TCP/IP Model
