@@ -1,1 +1,10 @@
+LAYERING
+
+-Layering means decomposing the problem into more manageable
+components (Layers)
+
+Advantages:
+-It provides more modular design.
+-Easy to troubleshoot.
+
 
