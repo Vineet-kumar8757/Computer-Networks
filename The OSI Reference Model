@@ -36,3 +36,11 @@ SERVICES PROVIDED BY SESSION LAYER
 #TRANSPORT LAYER
 -It is responsible for process to process delivery of the entire message.
 
+SERVICES PROVIDED BY TRANSPORT LAYER
+-Port Addressing
+-Segmenatation and Reassembly
+-Connection control
+-End-to-End Flow Control
+-Error Control
+
+
