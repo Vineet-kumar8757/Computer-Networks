@@ -9,3 +9,30 @@ LAYERS IN THE OSI REFERENCE LAYER
   7. Physical Layer
   
 The code coming from the Data Link Layer is converted into binary digits at Physical Layer.
+
+#APPLICATION LAYER
+-It enables the user to access the network resources.
+
+SERVICES PROVIDED BY APPLICATION LAYER
+-File Transfer and Access Management (FTAM).
+-Mail Services.
+-Directory services.
+
+#PRESENTATION LAYER
+-It is concerned with the syntax and semantics of the information exchanged between two systems.
+
+SERVICES PROVIDED BY PRESENTATION LAYER
+-Translation
+-Encryption
+-Compression
+
+#SESSION LAYER
+-It establishes, maintains and synchronizes the interaction among communicating devices.
+
+SERVICES PROVIDED BY SESSION LAYER
+-Dialog control
+-Synchronization
+
+#TRANSPORT LAYER
+-It is responsible for process to process delivery of the entire message.
+
