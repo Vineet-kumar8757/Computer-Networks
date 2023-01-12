@@ -8,3 +8,4 @@ LAYERS IN THE OSI REFERENCE LAYER
   6. Data Link Layer
   7. Physical Layer
   
+The code coming from the Data Link Layer is converted into binary digits at Physical Layer.
