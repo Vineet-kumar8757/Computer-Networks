@@ -43,4 +43,8 @@ SERVICES PROVIDED BY TRANSPORT LAYER
 -End-to-End Flow Control
 -Error Control
 
+#NETWORK LAYER
+-It is responsible for delivery of data from the original source to the destination network.
+
+
 
