@@ -1,0 +1,18 @@
+#Layers of TCP/IP Model
+1. Application - Represents data to the user, plus encoding and dialog control.
+2. Transport - Supports communication between diverse devices across diverse networks.
+3. Internet - Determines the best path through the network.
+4. Network Access - Controls the hardware devices and media that make up the network.
+
+Application Layer   Name System   Host Config   Email     File Transfer   Web
+                    DNS           BOOTP         SMTP      FTP             HTTP
+                                  DHCP          POP       TFTP
+                                                IMAP
+Transport Layer - UDP, TCP
+Internet Layer      IP            IP support    Routing Protocols
+                  NAT             ICMP          RIP, OSPF, EIGRP, BGP
+                  ARP
+                  
+Network Access Layer - PPP, Ethernet, Interface Drivers
+
+
