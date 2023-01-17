@@ -46,5 +46,31 @@ SERVICES PROVIDED BY TRANSPORT LAYER
 #NETWORK LAYER
 -It is responsible for delivery of data from the original source to the destination network.
 
+SERVICES PROVIDED BY NETWORK LAYER
+-Logical addressing.
+-Routing
+
+#DATA LINK LAYER
+It is responsible for moving data(frames) from one node to another node.
+
+SERVICES PROVIDED BY DATA LINK LAYER
+-Framing
+-Physical Addressing
+-Flow Control
+-Error Control
+-Access Control
+
+#PHYSICAL LAYER
+It is responsible for transmitting bits over medium.
+It also provides electrical and mechanical specifications.
+
+SERVICES PROVIDED BY PHYSICAL LAYER
+-Physical characteristics of the media.
+-Representation of bits.
+-Data rate.
+-Synchronization of bits.
+-Line configuration.
+-Physical topology.
+
 
 
