@@ -2,5 +2,18 @@ What is VPC?
 -- Virtual Private Cloud(VPC) lets you provision a logically isolated section
 of the AWS Cloud where you can launch AWS resources in a virtual network that 
 you define.
+-- The 3 most essential benefits you get from a Virtual Private Cloud are privacy,
+security and prevention from loss of proprietary data.
+
+What is an IP Address?
+-- An IP address is a logical, numerical label assigned as a unique entity to each 
+device in a network. It is used to locate the host in the network through the Network
+ID and Host ID present in the IP address.
+
+What is CIDR?
+-- Classless Inter-Domain Routing reduces the wastage of IP addresses by providing the
+exact required number of IP address to the users. It represents the IP address along with
+a special number(/n) to specify the number of bits present in the Network ID.
+
 
 
