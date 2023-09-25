@@ -1,1 +1,33 @@
+Data Link Sublayers
+---------------------
+1. Logical Link Control (LLC) or Data Link Control(DLC) Sublayer
+- Handles communication between upper and lower layers.
+- Takes the network protocol data and adds control information to help deliver
+the packet to the destination. (Flow Control)
+
+2. MAC Sublayer
+- Constitutes the lower sublayer of the data link layer.
+- Implemented by hardware, typically in the computer NIC.
+- Two primary responsibilities
+    1. Data encapsulation
+    2. Media access control
+
+1. Data encapsulation
+- Frame assembly before transmission and frame diassembly upon reception of a frame.
+- MAC layer adds a header and trailer to the network layer PDU.
+- Provides three primary functions:
+  - Framing
+  - Physical Addressing or MAC addressing
+  - Error control
+
+2. Media Access Control
+- Responsible for the placement of frames on the media and frames from the
+  media.
+- Communicates directly with the physical layer.
+
+
+
+
+
+
 
