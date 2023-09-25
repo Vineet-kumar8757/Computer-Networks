@@ -1,1 +1,31 @@
+Framing
+-------
+- Bits flow between adaptors, frames between hosts.
+- Framing in the data link layer separates a frame distinguishable from
+  another frame.
+- Frame = Header + Network Layer PDU + Trailer
+- In packet switched networks, the block of data called frames are exchanged
+  between nodes, not  bits streams.
+- When node A wishes to transmit a frame to node B, it tells its adaptor to
+  transmit a frame from the node's memory.
+- The results in a sequence of bits being sent over the link.
+- The adaptor on node B then collects together the sequence of bits arriving 
+  on the link and deposits the corresponding frame in B's memory.
+
+Types of framing
+------------------
+1. Fixed-size framing
+2. Variable-size framing
+
+1. Fixed-size framimg
+- Here the size of the frame is fixed and so the frame length acts as a delimuter
+ of the frame.
+-  Consequently, it does not require additional boundary bits to identify the
+start and end of the frame.
+
+2. Variable-size framing
+-  Here, the size of each frame to be transmitted may be different.
+
+
+
 
