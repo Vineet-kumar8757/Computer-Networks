@@ -1,1 +1,43 @@
+Data Link layer
+----------------
+1. It is responsible for moving data(frames) from one node to another node.
+
+Services provided by data link layer
+- Framing
+- Physical Addressing
+- Flow Control
+- Error Control
+- Access Control
+
+Framing
+-------- 
+1. The data link layer needs to pack bits into frames, so that each frame is 
+  distinguishable from another.
+2. Our postal system practices a type of framing.
+3. The simple act of inserting a letter into an envelope separates one piece of
+  information from another; the envelope serves as the delimiter.
+
+Physical Addressing
+-------------------
+1. A frame is the encapsulation of the header and trailer information with the 
+packet.
+2. In the header, the source and the destination MAC address are dealt.
+
+Flow Control
+--------------
+1. Flow Control is the one of the duties of data link control sublayer.
+2. The flow control in data link layer is end to end flow control.
+3. Speed matching mechanism.
+4. Flow control coordinates the amount of data that can be sent before
+receiving an acknowledgement.
+
+Access Control
+--------------
+- Media Access Control
+
+Error Control
+-------------
+- Error Detection
+- Error Correction
+
 
